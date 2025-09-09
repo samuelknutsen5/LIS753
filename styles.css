@@ -1,0 +1,26 @@
+h1 {
+  color: #2730f0;
+  font-family: Papyrus;
+  text-align: center;
+}
+p {
+  background: #dab5de;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+figure {
+  border: 1px solid black;
+  padding: 12px;
+  padding-bottom: 24px;
+}
+figure img {
+  width: 60%;
+  height: auto;
+  margin-bottom: 12px;
+}
+p img {
+  float: left;
+  max-width: 40%;
+  margin-right: 20px;
+  margin-bottom: 32px;
+}
