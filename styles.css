@@ -42,13 +42,12 @@ text-decoration: underline;
   width: 1px;
   height: 1px;
   top: auto;
-
-  &:focus {
-    color: $background-color;
+}
+.screenreader-text:focus {
+    color: black;
     display: inline-block;
     height: auto;
     width: auto;
     position: static;
     margin: auto;
   }
- }
