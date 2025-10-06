@@ -24,20 +24,13 @@ p{
 }
 figure{
   border: 1px solid black;
-  padding: 12px;
-  padding-bottom: 24px;
-}
-figure img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 12px;
+  padding: 12px;;
 }
 figure.main-image{
   float: center;
-  max-width: 100%;
 }
 figure.section-image{
-  
+  float: right;
 }
 p img {
   float: left;
