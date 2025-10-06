@@ -1,3 +1,18 @@
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+.screenreader-text:focus {
+    color: black;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: static;
+    margin: auto;
+  }
 .container {
   width: 96%;
   max-width: 1020px;
@@ -80,18 +95,3 @@ nav ul li a {
   letter-spacing: 1px;
   color: #f027d1;
 }
-.screenreader-text {
-  position: absolute;
-  left: -999px;
-  width: 1px;
-  height: 1px;
-  top: auto;
-}
-.screenreader-text:focus {
-    color: black;
-    display: inline-block;
-    height: auto;
-    width: auto;
-    position: static;
-    margin: auto;
-  }
