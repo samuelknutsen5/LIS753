@@ -80,11 +80,18 @@ nav ul li a {
   letter-spacing: 1px;
   color: #f027d1;
 }
-.skip-to-content-link{
-  left: 50%;
+.screenreader-text {
   position: absolute;
-  transform: translateY(-100%);
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
 }
-.skip-to-content-link:focus{
-  transform: translateY(0%);
-}
+.screenreader-text:focus {
+    color: black;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: static;
+    margin: auto;
+  }
