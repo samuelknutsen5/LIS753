@@ -1,18 +1,10 @@
-.screenreader-text {
+.skip-nav {
   position: absolute;
-  left: -999px;
-  width: 1px;
-  height: 1px;
-  top: auto;
+  top: -10000px;
 }
-.screenreader-text:focus {
-    color: black;
-    display: inline-block;
-    height: auto;
-    width: auto;
-    position: static;
-    margin: auto;
-  }
+.skip-nav:focus {
+  position: static;
+}
 .container {
   width: 96%;
   max-width: 1020px;
