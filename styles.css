@@ -23,10 +23,9 @@ p{
   text-align: left;
 }
 figure img {
-  max-width: 100%;
+  max-width: auto;
   height: auto;
-  margin-bottom: 12px;
-  float: center;
+  margin-bottom: 12px;;
 }
 figure.main-image{
   float: center;
