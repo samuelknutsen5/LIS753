@@ -36,8 +36,9 @@ figure img {
   height: auto;
   margin-bottom: 12px;
 }
+
 figure.main-image {
-  background: #f027d1;
+  float: center;
   border-color:#2730f0;
   color: #ffffff;
 }
