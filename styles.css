@@ -1,3 +1,14 @@
+.container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.small-container {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 768px;
+}
 h1{
   color: #2730f0;
   font-family: Papyrus;
@@ -10,7 +21,8 @@ h1#site-title{
   margin-bottom: .125em; 
 }
 h1#article-title {
-  font-size: 48px; 
+  font-size: 48px;
+  color:black 
 }
 h2{
   font-size: 24px;
