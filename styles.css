@@ -32,6 +32,7 @@ figure img {
   max-width: 100%;
   height: auto;
   margin-bottom: 12px;
+  float: center;
 }
 figure.main-image{
   float: center;
