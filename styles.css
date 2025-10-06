@@ -52,6 +52,10 @@ a{
   font-weight: bold;
   color: green;
 }
+header nav ul {
+  border-top: 1px solid #f027d1;
+  border-bottom: 1px solid #f027d1;
+}
 nav ul {
   display: flex;
   justify-content: center;
