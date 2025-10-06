@@ -44,6 +44,8 @@ a{
 }
 ul li a {
   text-decoration: none;
+  display: block;
+  color: #2730f0;
 }
 ul li a:hover {
 text-decoration: underline;
