@@ -28,6 +28,7 @@ figure {
   border: 1px solid black;
   padding: 12px;
   padding-bottom: 24px;
+  float: center;
 }
 
 figure img {
@@ -39,8 +40,8 @@ figure.main-image {
   background: #f027d1;
   border-color:#2730f0;
   color: #ffffff;
-  float: center;
 }
+
 figure.section-image{
   margin-bottom: 32px;
   max-width: 320px;
