@@ -1,13 +1,21 @@
+body{
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  margin:0;
+}
+
 .container {
   width: 96%;
   max-width: 1020px;
   margin: 0 auto;
 }
+
 .small-container {
   margin: 0 auto;
   width: 92%;
   max-width: 768px;
 }
+
 h1#site-title{
   font-size: 72px;
   letter-spacing: -3px;
@@ -16,49 +24,58 @@ h1#site-title{
   text-align: center;
   font-weight: 800;
 }
+
 h1#article-title {
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 22px;
   margin-top: 48px;
 }
+
 h2{
   font-weight: 900;
   margin-bottom: 0;
   margin-top:48px;
 }
+
 p{
  line-height: 1.25cm;
  margin-bottom: 1.25em;
 }
+
  figure {
   margin: 0;
   border: 1px solid black;
   padding: 12px;
   padding-bottom: 24px;
 }
+
 figure img {
   max-width: 100%;
   height: auto;
   margin-bottom: 12px;
 }
+
 figure.main-image{
   background: palevioletred;
   border-color: mediumvioletred;
   color: #ffffff;
   margin-bottom: 32px;
 }
+
 figure.section-image{
   max-width: 320px;
   float: right;
   margin: -20px -62px 32px 20px;
 }
+
 p img{
 float:right;
 max-width: 60%;
 margin-left: 20px;
 margin-bottom: 32px;
 }
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -67,6 +84,7 @@ nav ul {
   padding-left: 0;
   font-family: papyrus;
 }
+
 nav ul li a {
   color: #f027d1;
   text-decoration: none;
@@ -77,14 +95,17 @@ nav ul li a {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 header nav ul {
   border-top: 1px solid #f027d1;
   border-bottom: 1px solid #f027d1;
 }
+
 figure.section-image.odd{
   float: right;
   margin-left: 20px;
 }
+
 figure.section-image.even{
   float: left;
   margin-right: 20px;
