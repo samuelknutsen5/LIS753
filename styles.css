@@ -15,9 +15,8 @@ h1#article-title {
   
 }
 p {
-  background: #dab5de;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
+  text-align: left;
 }
 figure {
   border: 1px solid black;
