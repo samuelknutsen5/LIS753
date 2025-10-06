@@ -24,19 +24,18 @@ p{
 }
 figure{
   border: 1px solid black;
-  padding: 12px;;
+  padding: 12px;
+}
+figure img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
 }
 figure.main-image{
   float: center;
 }
 figure.section-image{
   float: right;
-}
-p img {
-  float: left;
-  max-width: 40%;
-  margin-right: 20px;
-  margin-bottom: 32px;
 }
 a{
   font-weight: bold;
