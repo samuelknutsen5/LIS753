@@ -3,7 +3,6 @@
   max-width: 1020px;
   margin: 0 auto;
 }
-
 .small-container {
   margin: 0 auto;
   width: 92%;
@@ -91,12 +90,9 @@ nav ul li a {
   width: 1px;
   height: 1px;
   top: auto;
+  color: #fff;
+  transform: translateY(-100%);
 }
 .screenreader-text:focus {
-    color: black;
-    display: inline-block;
-    height: auto;
-    width: auto;
-    position: static;
-    margin: auto;
+  transform: translateY(0%);
   }
