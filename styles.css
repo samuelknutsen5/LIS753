@@ -17,16 +17,11 @@ h2{
   color: #2730f0;
   text-align: center;
 }
+
 p{
   background-color: white;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: left;
-}
-
-figure {
-  border: 1px solid black;
-  padding: 12px;
-  padding-bottom: 24px;
 }
 
 figure img {
@@ -36,7 +31,7 @@ figure img {
 }
 
 figure.main-image {
-  border-color:#2730f0;
+  border-color:#f027d1;
   color: #ffffff;
 }
 
