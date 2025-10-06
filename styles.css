@@ -1,10 +1,3 @@
-.skip-nav {
-  position: absolute;
-  top: -10000px;
-}
-.skip-nav:focus {
-  position: static;
-}
 .container {
   width: 96%;
   max-width: 1020px;
@@ -15,30 +8,28 @@
   width: 92%;
   max-width: 768px;
 }
-h1{
-  color: #2730f0;
-  font-family: Papyrus;
-  text-align: center;
-}
 h1#site-title{
   font-size: 72px;
   letter-spacing: -3px;
   margin-top:0;
   margin-bottom: .125em; 
+  text-align: center;
+  font-weight: 800;
 }
 h1#article-title {
   font-size: 48px;
-  color:black 
+  font-weight: 900;
+  margin-bottom: 22px;
+  margin-top: 48px;
 }
 h2{
-  font-size: 24px;
-  color: black;
-  text-align: center;
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top:48px;
 }
 p{
-  background-color: white;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: left;
+ line-height: 1.25cm;
+ margin-bottom: 1.25em;
 }
  figure {
   margin: 0;
@@ -52,23 +43,21 @@ figure img {
   margin-bottom: 12px;
 }
 figure.main-image{
-  float: center;
+  background: palevioletred;
+  border-color: mediumvioletred;
+  color: #ffffff;
+  margin-bottom: 32px;
 }
 figure.section-image{
-  margin-bottom: 32px;
   max-width: 320px;
-}
-figure.section-image.odd{
   float: right;
-  margin-left: 20px;
+  margin: -20px -62px 32px 20px;
 }
-figure.section-image.even{
-  float: left;
-  margin-right: 20px;
-}
-header nav ul {
-  border-top: 1px solid #f027d1;
-  border-bottom: 1px solid #f027d1;
+p img{
+float:right;
+max-width: 60%;
+margin-left: 20px;
+margin-bottom: 32px;
 }
 nav ul {
   display: flex;
@@ -79,11 +68,24 @@ nav ul {
   font-family: papyrus;
 }
 nav ul li a {
-  text-decoration: underline;
+  color: #f027d1;
+  text-decoration: none;
   padding: 12px;
   display: block;
+  text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #f027d1;
 }
+header nav ul {
+  border-top: 1px solid #f027d1;
+  border-bottom: 1px solid #f027d1;
+}
+figure.section-image.odd{
+  float: right;
+  margin-left: 20px;
+}
+figure.section-image.even{
+  float: left;
+  margin-right: 20px;
+} 
