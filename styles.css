@@ -35,7 +35,16 @@ figure.main-image{
   float: center;
 }
 figure.section-image{
+  margin-bottom: 32px;
+  max-width: 320px;
+}
+figure.section-image.odd{
   float: right;
+  margin-left: 20px;
+}
+figure.section-image.even{
+  float: left;
+  margin-right: 20px;
 }
 a{
   font-weight: bold;
@@ -52,7 +61,7 @@ nav ul {
 ul li a {
   text-decoration: none;
   display: block;
-  color: #2730f0;
+  color: #f027d1;
 }
 ul li a:hover {
 text-decoration: underline;
