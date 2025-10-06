@@ -24,11 +24,9 @@ p{
 }
 
 figure {
-  margin:0;
   border: 1px solid black;
   padding: 12px;
   padding-bottom: 24px;
-  float: center;
 }
 
 figure img {
@@ -38,7 +36,6 @@ figure img {
 }
 
 figure.main-image {
-  float: center;
   border-color:#2730f0;
   color: #ffffff;
 }
