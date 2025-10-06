@@ -10,7 +10,7 @@ h1#site-title{
   margin-bottom: .125em; 
 }
 h1#article-title {
-  font-size: 48px; 
+  font-size: 32px; 
 }
 h2{
   font-size: 24px;
@@ -25,9 +25,9 @@ p{
 figure img {
   max-width: auto;
   height: auto;
-  margin-bottom: 12px;;
+  margin-bottom: 12px;
 }
-figure.main-image{
+figure.main-image {
   float: center;
 }
 figure.section-image{
