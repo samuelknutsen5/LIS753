@@ -1,81 +1,57 @@
-body {
-  font-family: 'inter', sans-serif;
-  font-weight: 400;
-  margin:0;
+h1{
+  color: #2730f0;
+  font-family: Papyrus;
+  text-align: center;
 }
-
-.container {
-  width: 96%;
-  max-width: 1020px;
-  margin: 0 auto;
-}
-
-.small-container {
-  margin: 0 auto;
-  width: 92%;
-  max-width: 768px;
-}
-
-h1#site-title {
+h1#site-title{
   font-size: 72px;
   letter-spacing: -3px;
   margin-top:0;
   margin-bottom: .125em; 
-  text-align: center;
-  font-weight: 800;
 }
-
 h1#article-title {
-  font-size: 48px;
-  font-weight: 900;
-  margin-bottom: 22px;
-  margin-top: 48px;
+  font-size: 48px; 
 }
-
-h2 {
-  font-weight: 900;
-  margin-bottom: 0;
-  margin-top:48px;
+h2{
+  font-size: 24px;
+  color: #2730f0;
+  text-align: center;
 }
-
-p {
- line-height: 1.25cm;
- margin-bottom: 1.25em;
+p{
+  background-color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
 }
-
  figure {
   margin: 0;
   border: 1px solid black;
   padding: 12px;
   padding-bottom: 24px;
 }
-
 figure img {
   max-width: 100%;
   height: auto;
   margin-bottom: 12px;
 }
-
-figure.main-image {
-  background: palevioletred;
-  border-color: mediumvioletred;
-  color: #ffffff;
+figure.main-image{
+  float: center;
+}
+figure.section-image{
   margin-bottom: 32px;
-}
-
-figure.section-image {
   max-width: 320px;
+}
+figure.section-image.odd{
   float: right;
-  margin: -20px -62px 32px 20px;
+  margin-left: 20px;
 }
-
-p img {
-float:right;
-max-width: 60%;
-margin-left: 20px;
-margin-bottom: 32px;
+figure.section-image.even{
+  float: left;
+  margin-right: 20px;
 }
-
+a{
+  font-weight: bold;
+  color: green;
+}
 nav ul {
   display: flex;
   justify-content: center;
@@ -84,29 +60,27 @@ nav ul {
   padding-left: 0;
   font-family: papyrus;
 }
-
 nav ul li a {
-  color: #f027d1;
-  text-decoration: none;
+  text-decoration: underline;
   padding: 12px;
   display: block;
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
+  color: #f027d1;
 }
-
-header nav ul {
-  border-top: 1px solid #f027d1;
-  border-bottom: 1px solid #f027d1;
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
 }
-
-figure.section-image.odd {
-  float: right;
-  margin-left: 20px;
-}
-
-figure.section-image.even {
-  float: left;
-  margin-right: 20px;
-} 
+.screenreader-text:focus {
+    color: black;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: static;
+    margin: auto;
+  }
