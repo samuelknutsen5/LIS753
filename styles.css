@@ -22,12 +22,6 @@ p{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: left;
 }
- figure {
-  margin: 0;
-  border: 1px solid black;
-  padding: 12px;
-  padding-bottom: 24px;
-}
 figure img {
   max-width: 100%;
   height: auto;
