@@ -80,19 +80,16 @@ nav ul li a {
   letter-spacing: 1px;
   color: #f027d1;
 }
-.screenreader-text {
-  position: absolute;
-  left: -999px;
+.skip{
+    position: absolute;
+  left: -10000px;
+  top: auto;
   width: 1px;
   height: 1px;
-  top: auto;
-  color: #fff;
+  overflow: hidden;
 }
-.skip-nav{
-  height: 30px;
-  left: 50%;
-  padding: 8px;
-  position: absolute;
-  transform: translateY(-100%);
-  transition: transform 0.3s;
+.skip:focus{
+  position: static
+  width: auto;
+  height: auto;
 }
