@@ -22,12 +22,23 @@ p{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: left;
 }
+
+figure {
+  margin:0;
+  border: 1px solid black;
+  padding: 12px
+  padding-bottom: 24px;
+}
+
 figure img {
-  max-width: auto;
+  max-width: 100%;
   height: auto;
   margin-bottom: 12px;
 }
 figure.main-image {
+  background: #f027d1;
+  border-color;:#2730f0
+  color: #ffffff;
   float: center;
 }
 figure.section-image{
