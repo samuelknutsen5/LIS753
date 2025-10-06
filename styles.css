@@ -89,7 +89,7 @@ nav ul li a {
   overflow: hidden;
 }
 .skip:focus{
-  position: static
+  position: static;
   width: auto;
   height: auto;
 }
