@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'inter', sans-serif;
   font-weight: 400;
   margin:0;
@@ -32,13 +32,13 @@ h1#article-title {
   margin-top: 48px;
 }
 
-h2{
+h2 {
   font-weight: 900;
   margin-bottom: 0;
   margin-top:48px;
 }
 
-p{
+p {
  line-height: 1.25cm;
  margin-bottom: 1.25em;
 }
@@ -56,20 +56,20 @@ figure img {
   margin-bottom: 12px;
 }
 
-figure.main-image{
+figure.main-image {
   background: palevioletred;
   border-color: mediumvioletred;
   color: #ffffff;
   margin-bottom: 32px;
 }
 
-figure.section-image{
+figure.section-image {
   max-width: 320px;
   float: right;
   margin: -20px -62px 32px 20px;
 }
 
-p img{
+p img {
 float:right;
 max-width: 60%;
 margin-left: 20px;
@@ -101,12 +101,12 @@ header nav ul {
   border-bottom: 1px solid #f027d1;
 }
 
-figure.section-image.odd{
+figure.section-image.odd {
   float: right;
   margin-left: 20px;
 }
 
-figure.section-image.even{
+figure.section-image.even {
   float: left;
   margin-right: 20px;
 } 
