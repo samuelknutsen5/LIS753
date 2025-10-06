@@ -91,8 +91,4 @@ nav ul li a {
   height: 1px;
   top: auto;
   color: #fff;
-  transform: translateY(-100%);
 }
-.screenreader-text:focus {
-  transform: translateY(0%);
-  }
