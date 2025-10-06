@@ -80,16 +80,11 @@ nav ul li a {
   letter-spacing: 1px;
   color: #f027d1;
 }
-.skip{
+.skip-to-content-link{
+  left: 50%;
   position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+  transform: translateY(-100%);
 }
-.skip:focus{
-  position: static;
-  width: auto;
-  height: auto;
+.skip-to-content-link:focus{
+  transform: translateY(0%);
 }
