@@ -32,6 +32,13 @@ figure img {
   height: auto;
   margin-bottom: 12px;
 }
+figure.main-image{
+  float: center;
+  max-width: 100%;
+}
+figure.section-image{
+  
+}
 p img {
   float: left;
   max-width: 40%;
