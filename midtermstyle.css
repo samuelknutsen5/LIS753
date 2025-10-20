@@ -12,7 +12,7 @@ h1{
 }
 
 h2{
-    color: #ffaaab;
+    color: #ff5e6c;
 }
 body{
     background-color: #fff5d7;
@@ -33,7 +33,7 @@ nav ul {
   gap: 30px;
   list-style: none;
   padding-left: 0;
-  font-family: papyrus;
+  font-family: Verdana;
 }
 
 #skip a{
