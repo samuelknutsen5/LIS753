@@ -13,6 +13,15 @@ figure img{
   margin: auto;
 }
 
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+  font-family: papyrus;
+}
+
 nav ul li a {
   text-decoration: underline;
   padding: 12px;
