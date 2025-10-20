@@ -1,0 +1,14 @@
+h1{
+  font-size: 36px;
+  font-family: verdana;
+  text-align: center;
+}
+
+figcaption{
+  text-align: center;
+}
+
+figure img{
+  display: block;
+  margin: auto;
+}
