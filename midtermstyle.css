@@ -9,6 +9,9 @@ h1{
   font-family: verdana;
   text-align: center;
 }
+body{
+    background-color: aliceblue;
+}
 
 figcaption{
   text-align: center;
