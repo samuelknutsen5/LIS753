@@ -12,3 +12,13 @@ figure img{
   display: block;
   margin: auto;
 }
+
+nav ul li a {
+  text-decoration: underline;
+  padding: 12px;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f027d1;
+}
