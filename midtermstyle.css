@@ -53,6 +53,10 @@ width:auto;
 height:auto;
 }
 
+article{
+  margin: 8px;
+}
+
 footer {
   text-align: center;
   font-weight: bold;
