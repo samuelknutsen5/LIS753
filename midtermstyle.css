@@ -54,6 +54,8 @@ height:auto;
 
 footer {
   text-align: center;
-  background-color: #ffaaab;
+  font-weight: bold;
+  border-top: black;
+  background-color:#fff5d7; 
   color: white;
 }
