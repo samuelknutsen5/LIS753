@@ -16,6 +16,7 @@ p{
 }
 body{
     background-color: #fff5d7;
+    padding: 3px;
 }
 
 figcaption{
@@ -54,6 +55,6 @@ height:auto;
 footer {
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
+  background-color: #ffaaab;
   color: white;
 }
