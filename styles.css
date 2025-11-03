@@ -9,6 +9,7 @@ h1#site-title{
   margin-top:0;
   margin-bottom: .125em; 
 }
+
 h1#article-title {
   font-size: 32px; 
 }
@@ -64,6 +65,15 @@ nav ul {
   padding-left: 0;
   font-family: papyrus;
 }
+
+@media all and (min-width: 376) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30xpx;
+  }
+}
+
 nav ul li a {
   text-decoration: underline;
   padding: 12px;
