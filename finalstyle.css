@@ -2,12 +2,12 @@ h1{
   font-size: 36px;
   font-family: verdana;
   text-align: center;
-  color: #cc2a3f;
+  color: black;
   font-weight: bold;
 }
 
 h2{
-    color: #cc2a3f;
+    color: black;
     font-weight: bold;
 }
 
@@ -16,7 +16,7 @@ p{
 }
 
 body{
-    background-color: #fff5d7;
+    background-color: #e6af0b;
     padding: 3px;
 }
 
@@ -62,9 +62,9 @@ article{
 }
 
 footer {
-   border-top: 3px solid #cc2a3f;
+   border-top: 3px solid black;
   text-align: center;
   font-weight: bold;
-  background-color:#fff5d7; 
-  color: #cc2a3f;
+  background-color:#e6af0b; 
+  color: black;
 }
