@@ -29,9 +29,10 @@ figcaption{
 }
 
 figure img{
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: auto;
-  size: 48px;
 }
 
 nav ul {
