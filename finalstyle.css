@@ -17,6 +17,9 @@ h2{
 h3{
   Color: black;
   font-weight: bold;
+  font-family: Verdana;
+  text-align: left;
+  font-size: 24px;
 }
 
 table {
