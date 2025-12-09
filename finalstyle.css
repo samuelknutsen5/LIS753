@@ -11,6 +11,17 @@ h2{
     font-weight: bold;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+
 p{
   font-size: 18px;
 }
@@ -64,7 +75,7 @@ article{
 }
 
 footer {
-   border-top: 3px solid black;
+  border-top: 3px solid black;
   text-align: center;
   font-weight: bold;
   background-color:#fdf2cf; 
