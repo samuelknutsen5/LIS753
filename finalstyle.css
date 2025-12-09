@@ -66,7 +66,7 @@ nav ul {
   font-family: Verdana;
 }
 
-#skip a{
+#skip-nav {
 position:absolute;
 left:-10000px;
 top:auto;
@@ -75,7 +75,7 @@ height:1px;
 overflow:hidden;
 }
  
-#skip a:focus{
+#skip-nav:focus{
 position:static;
 width:auto;
 height:auto;
